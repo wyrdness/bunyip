@@ -1,0 +1,467 @@
+{
+  "category": "CRYPTID",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/bunyip",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "bunyip",
+    "name": "Bunyip",
+    "aliases": [],
+    "category": "CRYPTID",
+    "subcategory": "Aquatic",
+    "tags": [
+      "aquatic",
+      "water-creature",
+      "australia",
+      "aboriginal-mythology",
+      "lake-monster",
+      "cryptid"
+    ],
+    "status": "folklore",
+    "description": {
+      "summary": "An Australian water creature from Aboriginal mythology that inhabits waterholes, billabongs, creeks, and swamps. Descriptions vary widely from dog-faced to crocodile-like or seal-like with a large body.",
+      "full": "The Bunyip is a legendary water-dwelling creature from Australian Aboriginal mythology, reported to inhabit waterholes, billabongs, creeks, and swamps across Australia. Descriptions vary significantly across different Aboriginal nations and European accounts, ranging from dog-faced to crocodile-like or seal-like creatures with large bodies. Aboriginal traditions of the Bunyip exist across multiple nations with different regional descriptions. European settlers in the 1800s also claimed sightings, sparking scientific interest. The creature is primarily considered part of Aboriginal spiritual and cultural tradition, though theories suggest it could represent cultural memory of extinct megafauna like Diprotodon, misidentified seals in waterways, or purely mythological beings."
+    },
+    "etymology": {
+      "origin": "From Aboriginal Australian languages, likely from the Wemba-Wemba or Wergaia languages of Victoria",
+      "meaning": "Devil or spirit",
+      "first_use": "Aboriginal traditions (ancient); European documentation from 1800s"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "CRYPTID",
+      "type": "Aquatic",
+      "subtype": "Lake/River monster",
+      "variant": "Australian"
+    },
+    "related_phenomena": [
+      {
+        "id": "loch-ness-monster",
+        "name": "Loch Ness Monster",
+        "relationship": "similar",
+        "description": "Scottish lake monster"
+      },
+      {
+        "id": "mokele-mbembe",
+        "name": "Mokele-mbembe",
+        "relationship": "similar",
+        "description": "African aquatic cryptid"
+      },
+      {
+        "id": "kraken",
+        "name": "Kraken",
+        "relationship": "similar",
+        "description": "Legendary sea creature"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "height": {
+        "min": 1.0,
+        "max": 4.0,
+        "unit": "meters",
+        "confidence": "very low"
+      },
+      "weight": {
+        "min": 100,
+        "max": 1000,
+        "unit": "kilograms",
+        "confidence": "very low"
+      },
+      "coloration": [
+        "dark brown",
+        "black",
+        "gray"
+      ],
+      "features": [
+        {
+          "feature": "Body shape",
+          "description": "Highly variable - described as dog-faced, crocodile-like, or seal-like with large body",
+          "frequency": "variable"
+        },
+        {
+          "feature": "Head",
+          "description": "Dog-like face, horse-like head, or crocodilian features reported",
+          "frequency": "variable"
+        },
+        {
+          "feature": "Tail",
+          "description": "Long tail reported in some accounts",
+          "frequency": "occasional"
+        },
+        {
+          "feature": "Tusks/teeth",
+          "description": "Large teeth or tusks mentioned in some descriptions",
+          "frequency": "occasional"
+        },
+        {
+          "feature": "Fur/skin",
+          "description": "Fur, scales, or smooth skin depending on account",
+          "frequency": "variable"
+        }
+      ],
+      "morphology": "Highly variable across reports. Descriptions range from seal-like aquatic mammals to crocodilian reptiles to dog-faced monsters. No consistent morphology exists."
+    },
+    "abilities": [
+      {
+        "ability": "Vocalizations",
+        "description": "Loud roaring or bellowing sounds",
+        "frequency": "common",
+        "evidence_level": "traditional"
+      },
+      {
+        "ability": "Swimming",
+        "description": "Aquatic locomotion in waterholes and rivers",
+        "frequency": "always",
+        "evidence_level": "traditional"
+      },
+      {
+        "ability": "Predation",
+        "description": "Attacks animals and humans near water",
+        "frequency": "traditional",
+        "evidence_level": "folklore"
+      }
+    ],
+    "behavior": {
+      "activity_period": "variable",
+      "disposition": "dangerous",
+      "social_structure": "solitary",
+      "habitat_preference": [
+        "waterholes",
+        "billabongs",
+        "creeks",
+        "swamps",
+        "rivers"
+      ],
+      "diet": "Carnivorous in traditional accounts",
+      "patterns": [
+        "Inhabits waterholes",
+        "Attacks those who approach water",
+        "Produces loud calls",
+        "Territorial of water sources"
+      ]
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Aboriginal traditions exist across Australia with regional variations. Primarily associated with inland waterways, billabongs, and swamps throughout the continent.",
+      "continents": ["Australia"],
+      "countries": ["Australia"],
+      "regions": [
+        "Victoria",
+        "New South Wales",
+        "Queensland",
+        "South Australia",
+        "Various Aboriginal nations"
+      ]
+    },
+    "hotspots": [
+      {
+        "name": "Victoria inland waterways",
+        "location": {
+          "description": "Victorian billabongs and river systems",
+          "country": "Australia",
+          "region": "Victoria",
+          "coordinates": {
+            "latitude": -37.0,
+            "longitude": 144.0,
+            "precision": "approximate"
+          }
+        },
+        "sighting_count": 20,
+        "peak_period": "1800s",
+        "notes": "European settler reports concentrated in Victoria"
+      },
+      {
+        "name": "Murray-Darling Basin",
+        "location": {
+          "description": "Murray-Darling river system",
+          "country": "Australia",
+          "region": "Multiple states",
+          "coordinates": {
+            "latitude": -34.0,
+            "longitude": 143.0,
+            "precision": "approximate"
+          }
+        },
+        "sighting_count": 15,
+        "peak_period": "1800s-1900s",
+        "notes": "Aboriginal traditions strong in this region"
+      }
+    ],
+    "temporal": {
+      "first_recorded": {
+        "date": "Pre-colonial",
+        "circa": true,
+        "source": "Aboriginal oral traditions dating back thousands of years"
+      },
+      "peak_activity_periods": [
+        {
+          "period": "1800s",
+          "description": "European settler reports and scientific interest"
+        }
+      ],
+      "seasonal_patterns": "Traditional accounts do not specify seasonal patterns"
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "Aboriginal peoples across Australia have traditions of water-dwelling creatures with various names and descriptions across different nations. The Bunyip is a spiritual and cultural being in Aboriginal mythology.",
+      "earliest_accounts": "Aboriginal oral traditions dating back thousands of years, predating European contact.",
+      "folklore_connections": "Connected to Aboriginal Dreamtime stories and spiritual beliefs about water sources and their protection."
+    },
+    "timeline": [
+      {
+        "date": "Pre-colonial",
+        "event": "Aboriginal oral traditions",
+        "significance": "Ancient traditions across multiple Aboriginal nations with regional variations",
+        "source": "Indigenous oral histories"
+      },
+      {
+        "date": "1800s",
+        "event": "European settler reports",
+        "significance": "European colonists claim sightings, sparking scientific interest",
+        "source": "Colonial records and newspapers"
+      },
+      {
+        "date": "1840s-1850s",
+        "event": "Scientific examination attempts",
+        "significance": "Australian Museum and others investigate alleged Bunyip remains",
+        "source": "Museum records"
+      },
+      {
+        "date": "1800s-present",
+        "event": "Cultural icon status",
+        "significance": "Bunyip becomes part of Australian cultural identity",
+        "source": "Literary and cultural references"
+      }
+    ],
+    "modern_era": "The Bunyip is now primarily understood as an important part of Aboriginal mythology and Australian cultural heritage rather than an active cryptid pursuit."
+  },
+
+  "sightings": {
+    "statistics": {
+      "total_documented": 50,
+      "verified": 0,
+      "disputed": 40,
+      "debunked": 10,
+      "date_range": {
+        "earliest": "Pre-colonial",
+        "latest": "1900s"
+      }
+    },
+    "notable": [
+      {
+        "id": "bunyip-sighting-1840s-victoria",
+        "name": "Victorian settler reports",
+        "date": {
+          "value": "1840s",
+          "precision": "decade"
+        },
+        "location": {
+          "description": "Various Victorian waterways",
+          "country": "Australia",
+          "region": "Victoria",
+          "coordinates": {
+            "latitude": -37.0,
+            "longitude": 144.0,
+            "precision": "approximate"
+          }
+        },
+        "witnesses": {
+          "count": 10,
+          "types": ["European settlers"],
+          "credibility_factors": ["Multiple independent reports", "Contemporary documentation"]
+        },
+        "description": "European settlers in Victoria reported encounters with large, unknown water creatures in billabongs and rivers, describing them variously as seal-like or dog-faced creatures.",
+        "conditions": {
+          "weather": "Variable",
+          "visibility": "Variable",
+          "time_of_day": "Variable",
+          "duration": "Brief"
+        },
+        "evidence": [
+          "Witness testimony",
+          "Newspaper reports",
+          "Alleged skeletal remains (later identified as known animals)"
+        ],
+        "credibility": {
+          "rating": "low",
+          "factors": [
+            "Highly variable descriptions",
+            "No physical evidence confirmed",
+            "Unfamiliarity with Australian wildlife",
+            "Cultural expectations from Aboriginal stories"
+          ],
+          "notes": "Most likely misidentifications of seals, water birds, or other known animals"
+        },
+        "sources": [
+          "Victorian colonial newspapers",
+          "Australian Museum records"
+        ],
+        "featured": true
+      }
+    ],
+    "database_path": "./sightings/"
+  },
+
+  "evidence": {
+    "physical": [
+      {
+        "id": "bunyip-evidence-bones",
+        "type": "skeletal remains",
+        "name": "Alleged Bunyip bones",
+        "date": "1840s-1850s",
+        "description": "Various skeletal remains claimed to be Bunyip remains",
+        "status": "debunked",
+        "analysis": "All examined remains identified as known animals (seals, cattle, etc.)",
+        "source": "Australian Museum records"
+      }
+    ],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
+  },
+
+  "theories": {
+    "paranormal": [
+      {
+        "name": "Spiritual being",
+        "description": "Bunyip as a spiritual entity from Aboriginal Dreamtime, not a physical creature",
+        "proponents": ["Aboriginal traditional beliefs"],
+        "evidence_cited": ["Spiritual significance in Aboriginal culture", "Dreamtime stories"]
+      }
+    ],
+    "scientific": [
+      {
+        "name": "Extinct Diprotodon",
+        "description": "Cultural memory of extinct megafauna Diprotodon, a giant marsupial that lived until ~40,000 years ago",
+        "proponents": ["Some paleontologists"],
+        "evidence_cited": ["Timing of Aboriginal arrival overlaps with megafauna", "Diprotodon was semi-aquatic"]
+      },
+      {
+        "name": "Misidentified seals",
+        "description": "European sightings were misidentifications of seals that had traveled inland via river systems",
+        "proponents": ["Zoologists"],
+        "evidence_cited": ["Seals do travel up Australian rivers", "Descriptions match seal characteristics"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Pure mythology",
+        "description": "Bunyip is entirely mythological with no basis in real creatures, serving cultural and cautionary purposes",
+        "proponents": ["Skeptics", "Cultural anthropologists"],
+        "evidence_cited": ["No credible physical evidence", "Highly variable descriptions", "Serves cultural function"]
+      },
+      {
+        "name": "Misidentification of known animals",
+        "description": "Combination of misidentified seals, large water birds, swimming wombats, and other known fauna",
+        "proponents": ["Zoologists"],
+        "evidence_cited": ["European unfamiliarity with Australian wildlife", "No consistent descriptions"]
+      }
+    ]
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": [
+        "Dreamtime stories across multiple Aboriginal nations",
+        "Water hole protection stories",
+        "Cautionary tales for children"
+      ],
+      "stories": [
+        "Bunyip as guardian of water sources",
+        "Punishment for those who disrespect water",
+        "Various regional Aboriginal stories with different characteristics"
+      ],
+      "beliefs": "In Aboriginal culture, the Bunyip often serves as a spiritual guardian of waterholes and a cautionary figure, particularly to keep children safe from dangerous water sources."
+    },
+    "indigenous": {
+      "cultures": [
+        "Wemba-Wemba",
+        "Wergaia",
+        "Various Aboriginal nations across Australia"
+      ],
+      "significance": "The Bunyip is an important spiritual and cultural figure in Aboriginal mythology, serving both protective and cautionary functions. Different Aboriginal nations have different traditions and interpretations.",
+      "sensitivity_note": "The Bunyip is part of living Aboriginal spiritual traditions and should be approached with respect. These are not merely cryptozoological curiosities but sacred cultural beliefs of Indigenous Australians.",
+      "respect_guidelines": "Consult with Aboriginal elders and communities when discussing Bunyip traditions. Recognize the spiritual and cultural significance beyond Western cryptozoological frameworks."
+    },
+    "popular_culture": {
+      "literature": [
+        "The Bunyip of Berkeley's Creek by Jenny Wagner (1973)",
+        "Various Australian children's books",
+        "Australian poetry and folklore collections"
+      ],
+      "film_tv": [
+        "Dot and the Kangaroo (1977) - animated feature",
+        "Various Australian children's programs"
+      ],
+      "games": [],
+      "other": [
+        "Australian cultural icon",
+        "Used in tourism and regional branding",
+        "Part of Australian national identity"
+      ]
+    }
+  },
+
+  "research": {
+    "researchers": [
+      {
+        "name": "Australian Museum",
+        "affiliation": "Australian Museum",
+        "contribution": "1800s investigation of alleged Bunyip remains",
+        "period": "1840s-1850s"
+      }
+    ],
+    "organizations": [],
+    "ongoing_studies": "The Bunyip is primarily studied from cultural, anthropological, and folklore perspectives rather than as an active cryptozoological pursuit."
+  },
+
+  "sources": [
+    {
+      "id": "aboriginal-traditions",
+      "type": "cultural",
+      "title": "Aboriginal oral traditions",
+      "description": "Various Aboriginal nation traditions regarding water spirits and the Bunyip",
+      "note": "Requires cultural sensitivity and respect"
+    },
+    {
+      "id": "australian-museum",
+      "type": "institutional",
+      "title": "Australian Museum archives",
+      "description": "1840s-1850s investigations of alleged Bunyip evidence",
+      "url": "https://australian.museum"
+    },
+    {
+      "id": "colonial-newspapers",
+      "type": "historical",
+      "title": "Victorian colonial newspaper reports",
+      "date": "1840s-1900s",
+      "description": "European settler accounts of Bunyip sightings"
+    }
+  ]
+}
