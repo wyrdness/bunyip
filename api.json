@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/bunyip",
     "maintainers": [
       {
@@ -16,111 +16,294 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "bunyip",
     "name": "Bunyip",
-    "aliases": [],
+    "aliases": [
+      { "name": "Mulyawonk", "language": "Ngarrindjeri", "region": "Lower Murray, South Australia", "meaning": "Water spirit who punishes those who take too much fish" },
+      { "name": "Kine pratie", "language": "Aboriginal Victorian languages", "region": "Western Victoria" },
+      { "name": "Wowee-wowee", "region": "New South Wales reports" },
+      { "name": "Yaa-loo", "region": "South Australian colonial reports" }
+    ],
     "category": "CRYPTID",
-    "subcategory": "| Description | Status |",
+    "subcategory": "Aquatic cryptid / Aboriginal water spirit",
     "tags": [
-      "folklore",
-      "mythology"
+      "aboriginal",
+      "australia",
+      "water-spirit",
+      "cryptid",
+      "freshwater",
+      "billabong",
+      "swamp"
     ],
     "status": "documented",
     "description": {
-      "summary": "The Bunyip is a legendary water-dwelling creature from Australian Aboriginal mythology, reported to inhabit waterholes, billabongs, creeks, and swamps across Australia.",
-      "full": "The Bunyip is a legendary water-dwelling creature from Australian Aboriginal mythology, reported to inhabit waterholes, billabongs, creeks, and swamps across Australia. Descriptions vary significantly across different Aboriginal nations and European accounts, ranging from dog-faced to crocodile-like or seal-like creatures with large bodies. Aboriginal traditions of the Bunyip exist across multiple nations with different regional descriptions. The creature plays an important role in Aboriginal spiritual beliefs and Dreamtime stories, often serving as a guardian of water sources and a cautionary figure. European settlers in the 1800s also claimed sightings, sparking scientific interest. The Australian Museum investigated alleged Bunyip remains in the 1840s-1850s, though all examined specimens were identified as known animals. The Bunyip is primarily considered part of Aboriginal spiritual and cultural tradition, though theories suggest it could represent cultural memory of extinct megafauna like Diprotodon or misidentified seals in waterways."
+      "summary": "The Bunyip is a water-dwelling creature of Australian Aboriginal tradition, said to inhabit waterholes, billabongs, swamps, and creeks; descriptions vary widely between regions, and the figure has played a major role in colonial-era Australian natural-history controversies.",
+      "full": "The Bunyip is a creature of Australian Aboriginal tradition associated with freshwater habitats — billabongs, swamps, lagoons, creeks, and riverbeds — across much of the continent. The English word 'bunyip' is generally traced to the Wemba-Wemba or Wergaia language of western Victoria, where modern Aboriginal speakers most often gloss it as 'devil' or 'evil spirit', although that translation may not capture the original cosmological meaning. Descriptions vary substantially: a folkloric survey by Robert Holden distinguishes a dog-faced 'seal-dog' bunyip (with a shaggy black or brown coat, prominent ears, and seal-like whiskers), a long-necked variant (with an emu- or horse-like head and a maned neck), and other forms involving feathered, alligator-bodied, or starfish-like beings. Among the Ngarrindjeri of the lower Murray, a closely related being called the Mulyawonk is a guardian of fish stocks who punishes hunters who take more than their share. European colonists encountered the tradition from the 1820s onward, and a wave of newspaper reports beginning with the 'Wonderful Discovery of a New Animal' article in the Geelong Advertiser of 9 July 1845 made the bunyip a temporary subject of serious natural-history debate. A skull found near Balranald, New South Wales, in 1846 was investigated by W. S. Macleay and Richard Owen, who by July 1847 identified it as a deformed foetal foal or calf skull. Modern theories propose that bunyip traditions may preserve cultural memory of extinct Pleistocene megafauna such as Diprotodon, encode encounters with seals that ranged up the Murray–Darling system, or in some cases derive from the booming call of the Australasian bittern ('the bunyip bird'). The figure remains one of the most recognised elements of Australian folkloric heritage."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Most likely from the Wemba-Wemba or Wergaia language of western Victoria; recorded by colonists in the early 19th century.",
+      "meaning": "Modern Aboriginal English use generally translates the term as 'devil' or 'evil spirit', though the original cosmological sense is uncertain.",
+      "first_use": "First recorded in English in the 1840s; popularised by the 1845 Geelong Advertiser article 'Wonderful Discovery of a New Animal'."
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "CRYPTID",
-      "type": "| Description | Status |",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Aquatic cryptid",
+      "subtype": "Freshwater cryptid / water-spirit",
+      "variant": "Australian"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "ogopogo", "name": "Ogopogo", "relationship": "similar", "description": "Canadian freshwater lake cryptid" },
+      { "id": "loch-ness-monster", "name": "Loch Ness Monster", "relationship": "similar", "description": "Scottish freshwater cryptid" },
+      { "id": "yowie", "name": "Yowie", "relationship": "related", "description": "Australian land-based hominid cryptid; sometimes paired with bunyip in popular culture" },
+      { "id": "mulyawonk", "name": "Mulyawonk", "relationship": "regional_variant", "description": "Ngarrindjeri water spirit closely related to the bunyip tradition" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "height": { "min": 1.2, "max": 4.6, "unit": "meters", "confidence": "low" },
+      "coloration": ["dark brown", "black", "shaggy"],
+      "features": [
+        { "feature": "Aquatic body plan", "description": "Strongly associated with water; never reported on land in traditional accounts", "frequency": "always" },
+        { "feature": "Seal-dog form", "description": "Most common form in Holden's survey: 4–6 ft long, bulldog-like head, prominent ears, seal-like whiskers, shaggy black or brown coat", "frequency": "common" },
+        { "feature": "Long-necked form", "description": "5–15 ft long, horse- or emu-like head, maned neck with skin folds", "frequency": "common" },
+        { "feature": "Loud bellowing call", "description": "Reported as a deep, booming roar emerging from waterholes at night; often invoked to explain the call of the Australasian bittern", "frequency": "common" }
+      ],
+      "morphology": "Highly variable across Aboriginal nations and colonial reports. Holden's typology distinguishes seal-dog, long-necked, and 'other' forms; the latter category includes feathered, beaked, and starfish-like descriptions."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Drowning / dragging humans underwater", "description": "Bunyips reportedly seize people who enter their waters, especially women and children", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Booming call", "description": "Distinctive nocturnal roar associated with waterholes", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Punishment of over-fishing (Mulyawonk variant)", "description": "Among the Ngarrindjeri, the Mulyawonk specifically punishes those who take more fish than they need", "frequency": "common", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "aggressive",
+      "social_structure": "solitary",
+      "habitat_preference": ["billabongs", "swamps", "lagoons", "creeks", "riverbeds", "waterholes"],
+      "diet": "Reported as a predator of humans, livestock, and large game in folkloric accounts; no naturalistic diet has been established.",
+      "patterns": [
+        "Confined to fresh water; never reported on dry land",
+        "Active especially at night",
+        "Booming or roaring calls heard from waterholes",
+        "Stories used as warnings against entering water alone"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Bunyip traditions extend across most of inhabited Australia, with strongest documentation in the Murray–Darling Basin (Victoria, New South Wales, South Australia), Tasmania, and parts of Queensland.",
+      "continents": ["Oceania"],
+      "countries": ["Australia"],
+      "regions": [
+        "Murray–Darling Basin",
+        "Victoria",
+        "New South Wales",
+        "South Australia",
+        "Tasmania",
+        "Queensland"
+      ]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Lake Modewarre",
+        "location": {
+          "description": "Crater lake near Geelong, Victoria",
+          "country": "Australia",
+          "region": "Victoria",
+          "coordinates": { "latitude": -38.2350, "longitude": 144.0190 }
+        },
+        "peak_period": "1850s",
+        "notes": "Site of escaped convict William Buckley's reported bunyip sightings, recounted in his 1852 narrative."
+      },
+      {
+        "name": "Murray River near Balranald",
+        "location": {
+          "description": "Murray River, near Balranald, New South Wales",
+          "country": "Australia",
+          "region": "New South Wales",
+          "coordinates": { "latitude": -34.6500, "longitude": 143.5500 }
+        },
+        "peak_period": "1846–1847",
+        "notes": "Site of the 1846 'bunyip skull' later identified as a deformed foetal foal or calf by Macleay and Owen."
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "Pre-contact",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Aboriginal oral tradition predating European colonisation"
+      },
+      "peak_activity_periods": [
+        { "period": "1845–1860", "description": "Colonial-era 'bunyip flap' driven by newspaper reports and the Murray River skull controversy" },
+        { "period": "1930s–present", "description": "Comparative-zoology and folklore-studies treatments (Charles Fenner, Pat Vickers-Rich, Robert Holden)" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Indigenous Australian water-spirit traditions across multiple nations and language groups, locally specific (Mulyawonk among Ngarrindjeri, kine-pratie in western Victoria, others elsewhere).",
+      "earliest_accounts": "Aboriginal oral tradition predating European arrival; first English-language documentation in the 1820s–1840s.",
+      "folklore_connections": "Connected to a pan-Australian Aboriginal water-spirit complex; comparable to other freshwater-cryptid traditions globally."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1845-07-09", "event": "Geelong Advertiser publishes 'Wonderful Discovery of a New Animal'", "significance": "First major newspaper coverage of the bunyip in colonial Australia", "source": "Geelong Advertiser, 9 July 1845" },
+      { "date": "1846", "event": "An unusual skull is found near Balranald, NSW, on the Murray River and labeled a 'bunyip skull'", "significance": "Triggers Australian Museum / Macleay / Owen investigation", "source": "Australian Museum records" },
+      { "date": "1847-07", "event": "W. S. Macleay and Richard Owen identify the Balranald skull as a deformed foetal foal or calf", "significance": "First major scientific debunking of a 'bunyip' specimen", "source": "Macleay correspondence; Sydney Morning Herald (1847)" },
+      { "date": "1852", "event": "Escaped convict William Buckley publishes his memoir, recounting bunyip sightings at Lake Modewarre and the Barwon River", "significance": "Influential first-person settler-era account", "source": "Buckley, W. (1852)" },
+      { "date": "1933", "event": "Geographer Charles Fenner proposes that bunyip stories preserve memory of seals ranging up the Murray and Darling rivers", "significance": "First major naturalistic hypothesis", "source": "Fenner, C. (1933), 'Bunyips and Billabongs'" },
+      { "date": "2001", "event": "Robert Holden publishes 'Bunyips: Australia's Folklore of Fear', cataloguing reports and typologies", "significance": "Standard modern reference for bunyip folklore", "source": "Holden, R. (2001)" }
+    ],
+    "modern_era": "The bunyip persists as one of Australia's most recognised folkloric figures. It features prominently in Australian children's literature (notably 'The Bunyip of Berkeley's Creek' by Jenny Wagner and Ron Brooks, 1973), national symbolism, and continuing Aboriginal cultural transmission. Indigenous communities hold the underlying water-spirit traditions as living cultural knowledge distinct from the colonial cryptid framing."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
       "verified": 0,
       "disputed": 0,
-      "debunked": 0
+      "debunked": 0,
+      "date_range": { "earliest": "Pre-contact", "latest": "20th century" }
     },
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
-    "physical": [],
+    "physical": [
+      {
+        "id": "bunyip-evidence-balranald-skull",
+        "type": "skull (purported)",
+        "name": "Balranald 'Bunyip Skull'",
+        "date": "1846",
+        "description": "An unusual mammalian skull found near Balranald on the Murray River and submitted as a possible bunyip specimen.",
+        "location": "Balranald, New South Wales, Australia",
+        "status": "debunked",
+        "analysis": "Identified by W. S. Macleay and Richard Owen by July 1847 as a deformed foetal foal or calf skull.",
+        "source": "Macleay correspondence; Australian Museum records"
+      }
+    ],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "bunyip-evidence-holden-2001",
+        "type": "book",
+        "name": "Bunyips: Australia's Folklore of Fear",
+        "date": "2001",
+        "description": "Robert Holden's comprehensive folklore-studies treatment of bunyip traditions across Aboriginal nations and colonial sources.",
+        "status": "verified",
+        "analysis": "Most cited modern reference work on bunyips.",
+        "source": "Holden, R. (2001)"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "paranormal": [
+      {
+        "name": "Aboriginal water-spirit framing",
+        "description": "Within many Aboriginal traditions, the bunyip and related figures (Mulyawonk, kine-pratie) are real spirit-beings of fresh water with cosmological and behavioural significance.",
+        "proponents": ["Aboriginal oral traditions", "Ngarrindjeri cultural authorities (Mulyawonk)"],
+        "evidence_cited": ["Continuous oral tradition", "Place-name and ceremonial associations"]
+      }
+    ],
+    "scientific": [
+      {
+        "name": "Cultural memory of Pleistocene megafauna",
+        "description": "Bunyip stories may preserve cultural memory of extinct Australian megafauna such as Diprotodon, Zygomaturus, Nototherium, Palorchestes, or Thylacoleo, observed by early Aboriginal Australians.",
+        "proponents": ["George Bennett (1871)", "Pat Vickers-Rich (early 1990s)"],
+        "evidence_cited": ["Documented Pleistocene megafauna in Australian deposits", "Geographic correlation between fossil sites and bunyip-rich folklore areas"]
+      },
+      {
+        "name": "Inland seal hypothesis",
+        "description": "Charles Fenner proposed in 1933 that fur seals or leopard seals occasionally travelling up the Murray and Darling rivers inspired bunyip accounts.",
+        "proponents": ["Charles Fenner"],
+        "evidence_cited": ["Documented inland seal records in colonial Australia", "Fit with the seal-dog form of the bunyip"]
+      },
+      {
+        "name": "Bittern call hypothesis",
+        "description": "The deep, booming call of the Australasian bittern (Botaurus poiciloptilus) is widely identified as a source of nocturnal 'bunyip' roars; the bird is colloquially known as the 'bunyip bird'.",
+        "proponents": ["Australian ornithologists", "BirdLife Australia"],
+        "evidence_cited": ["Acoustic recordings of bittern calls", "Habitat overlap with bunyip-report areas"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Misidentification and folklore aggregation",
+        "description": "Most colonial-era reports are best explained by misidentification of seals, large rays, or deformed mammalian carcasses; the unifying creature emerges only when European colonists pool a heterogeneous Aboriginal vocabulary into a single 'bunyip'.",
+        "proponents": ["Robert Holden", "Australian zoologists"],
+        "evidence_cited": ["Balranald skull identification (1847)", "Diversity of Aboriginal-language terms collapsed into 'bunyip' by colonists"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Wemba-Wemba / Wergaia bunyip tradition",
+        "Ngarrindjeri Mulyawonk tradition",
+        "Western Victorian kine-pratie tradition"
+      ],
+      "stories": [
+        "William Buckley's 1852 Lake Modewarre and Barwon River accounts",
+        "Edwin Stocqueler's 1857 Murray and Goulburn river artist sightings",
+        "The 1846 Balranald 'bunyip skull' affair"
+      ],
+      "beliefs": "The bunyip serves as a warning against entering unfamiliar or sacred water, against over-harvesting fish, and against ignoring Aboriginal protocols for water country."
+    },
+    "indigenous": {
+      "cultures": ["Wemba-Wemba", "Wergaia", "Ngarrindjeri", "Kulin nations", "many other Aboriginal nations"],
+      "significance": "The bunyip and its regional cognates are part of living Aboriginal water-country knowledge, tied to specific places, ancestors, and lawful behaviour around water.",
+      "sensitivity_note": "Colonial collapsing of diverse Aboriginal water-spirit traditions into a single 'bunyip' obscures meaningful distinctions; the figure should not be reduced to a generic cryptid.",
+      "respect_guidelines": "Engage Aboriginal traditional owners and language authorities for any region-specific use; cite Aboriginal knowledge holders directly where possible."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
+      "literature": [
+        "The Bunyip of Berkeley's Creek — Jenny Wagner and Ron Brooks (1973)",
+        "Bunyips: Australia's Folklore of Fear — Robert Holden (2001)",
+        "Dot and the Kangaroo — Ethel Pedley (1899) — features a bunyip"
+      ],
+      "film_tv": [
+        "Dot and the Kangaroo (1977 animated film)",
+        "Multiple Australian children's television appearances"
+      ],
       "games": [],
-      "other": []
+      "music": [],
+      "other": [
+        "Bunyip Aquatic Centres and recreation areas across Australia",
+        "Tourism signage in regional Victoria and NSW"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Robert Holden", "affiliation": "Australian folklore historian", "contribution": "Comprehensive 2001 monograph 'Bunyips: Australia's Folklore of Fear'", "period": "1990s–2000s" },
+      { "name": "Charles Fenner", "affiliation": "South Australian geographer", "contribution": "1933 'inland seal' hypothesis", "period": "1930s" },
+      { "name": "Pat Vickers-Rich", "affiliation": "Monash University (palaeontology)", "contribution": "Discussion of the megafauna-memory hypothesis", "period": "1990s" },
+      { "name": "Sir Richard Owen", "affiliation": "British Museum (Natural History)", "contribution": "1847 identification of the Balranald 'bunyip skull' as a foetal foal/calf", "period": "1847" }
+    ],
+    "organizations": [
+      { "name": "Australian Museum", "url": "https://australian.museum/", "focus": "Holds historical bunyip-related specimens and archival material" },
+      { "name": "BirdLife Australia", "url": "https://birdlife.org.au/", "focus": "Research on the Australasian bittern (the 'bunyip bird')" }
+    ],
+    "ongoing_studies": "Folklore-studies analysis of regional bunyip traditions; Aboriginal cultural-knowledge programmes; ongoing palaeontological discussion of megafauna-memory hypotheses."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "wikipedia-bunyip", "type": "website", "title": "Bunyip", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Bunyip", "accessed": "2026-05-07" },
+    { "id": "holden-2001", "type": "book", "title": "Bunyips: Australia's Folklore of Fear", "authors": ["Robert Holden"], "publication": "National Library of Australia", "date": "2001", "isbn": "978-0642107329" },
+    { "id": "fenner-1933", "type": "article", "title": "Bunyips and Billabongs", "authors": ["Charles Fenner"], "publication": "Walkabout magazine / various", "date": "1933" },
+    { "id": "geelong-advertiser-1845", "type": "news", "title": "Wonderful Discovery of a New Animal", "publication": "Geelong Advertiser", "date": "1845-07-09" }
+  ]
 }

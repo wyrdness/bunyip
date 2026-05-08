@@ -1,297 +1,202 @@
 # Bunyip
 
-> *"Guardian of the waterhole"*
+> The Bunyip is a water-dwelling creature of Australian Aboriginal tradition, said to inhabit waterholes, billabongs, swamps, and creeks; descriptions vary widely between regions, and the figure has played a major role in colonial-era Australian natural-history controversies.
 
-[![API Version](https://img.shields.io/badge/api-v1.0.0-blue)]()
-[![Last Updated](https://img.shields.io/badge/updated-2026--01--14-green)]()
-[![Sightings](https://img.shields.io/badge/sightings-50+-orange)]()
-[![Status](https://img.shields.io/badge/status-folklore-yellow)]()
+[![API Version](https://img.shields.io/badge/api-v1.1.0-blue)]() [![Last Updated](https://img.shields.io/badge/updated-2026-05-07-green)]() [![Sightings](https://img.shields.io/badge/sightings-0-orange)]() ![Status](https://img.shields.io/badge/status-documented-blue)
 
 ---
-
 ## Quick Reference
 
 | Property | Value |
-|----------|-------|
+|---|---|
 | **ID** | `bunyip` |
 | **Category** | CRYPTID |
-| **Classification** | Aquatic / Lake monster |
-| **First Recorded** | Pre-colonial (Aboriginal traditions) |
-| **Primary Region** | Australia (inland waterways) |
-| **Status** | Folklore |
+| **Subcategory** | Aquatic cryptid / Aboriginal water spirit |
+| **First recorded** | 1845-07-09 |
+| **Primary range** | Bunyip traditions extend across most of inhabited Australia, with strongest documentation in the Murray–Darling Basin (Victoria, New South Wales, South Australia), Tasmania, and parts of Queensland |
+| **Status** | documented |
 
 ---
-
 ## Overview
 
-The Bunyip is a legendary water-dwelling creature from Australian Aboriginal mythology, reported to inhabit waterholes, billabongs, creeks, and swamps across Australia. Descriptions vary significantly across different Aboriginal nations and European accounts, ranging from dog-faced to crocodile-like or seal-like creatures with large bodies.
-
-Aboriginal traditions of the Bunyip exist across multiple nations with different regional descriptions. The creature plays an important role in Aboriginal spiritual beliefs and Dreamtime stories, often serving as a guardian of water sources and a cautionary figure.
-
-European settlers in the 1800s also claimed sightings, sparking scientific interest. The Australian Museum investigated alleged Bunyip remains in the 1840s-1850s, though all examined specimens were identified as known animals. The Bunyip is primarily considered part of Aboriginal spiritual and cultural tradition, though theories suggest it could represent cultural memory of extinct megafauna like Diprotodon or misidentified seals in waterways.
+The Bunyip is a creature of Australian Aboriginal tradition associated with freshwater habitats — billabongs, swamps, lagoons, creeks, and riverbeds — across much of the continent. The English word 'bunyip' is generally traced to the Wemba-Wemba or Wergaia language of western Victoria, where modern Aboriginal speakers most often gloss it as 'devil' or 'evil spirit', although that translation may not capture the original cosmological meaning. Descriptions vary substantially: a folkloric survey by Robert Holden distinguishes a dog-faced 'seal-dog' bunyip (with a shaggy black or brown coat, prominent ears, and seal-like whiskers), a long-necked variant (with an emu- or horse-like head and a maned neck), and other forms involving feathered, alligator-bodied, or starfish-like beings. Among the Ngarrindjeri of the lower Murray, a closely related being called the Mulyawonk is a guardian of fish stocks who punishes hunters who take more than their share. European colonists encountered the tradition from the 1820s onward, and a wave of newspaper reports beginning with the 'Wonderful Discovery of a New Animal' article in the Geelong Advertiser of 9 July 1845 made the bunyip a temporary subject of serious natural-history debate. A skull found near Balranald, New South Wales, in 1846 was investigated by W. S. Macleay and Richard Owen, who by July 1847 identified it as a deformed foetal foal or calf skull. Modern theories propose that bunyip traditions may preserve cultural memory of extinct Pleistocene megafauna such as Diprotodon, encode encounters with seals that ranged up the Murray–Darling system, or in some cases derive from the booming call of the Australasian bittern ('the bunyip bird'). The figure remains one of the most recognised elements of Australian folkloric heritage.
 
 ---
+## Names & Aliases
 
-## Etymology & Names
+| Name | Origin | Meaning |
+|---|---|---|
+| Mulyawonk | Ngarrindjeri / Lower Murray, South Australia | Water spirit who punishes those who take too much fish |
+| Kine pratie | Aboriginal Victorian languages / Western Victoria |  |
+| Wowee-wowee | New South Wales reports |  |
+| Yaa-loo | South Australian colonial reports |  |
 
-### Primary Name
-- **Bunyip** — From Aboriginal Australian languages, likely from the Wemba-Wemba or Wergaia languages of Victoria, meaning "devil" or "spirit."
+## Etymology
 
----
-
-## Classification
-
-### Taxonomy
-```
-Category: CRYPTID
-├── Type: Aquatic
-├── Subtype: Lake/River monster
-└── Variant: Australian
-```
-
-### Related Phenomena
-
-| Phenomenon | Relationship | Description |
-|------------|--------------|-------------|
-| [Loch Ness Monster](/loch-ness-monster) | Similar | Scottish lake monster |
-| [Mokele-mbembe](/mokele-mbembe) | Similar | African aquatic cryptid |
-| [Kraken](/kraken) | Similar | Legendary sea creature |
+- **Origin**: Most likely from the Wemba-Wemba or Wergaia language of western Victoria; recorded by colonists in the early 19th century.
+- **Meaning**: Modern Aboriginal English use generally translates the term as 'devil' or 'evil spirit', though the original cosmological sense is uncertain.
+- **First use**: First recorded in English in the 1840s; popularised by the 1845 Geelong Advertiser article 'Wonderful Discovery of a New Animal'.
 
 ---
+## Related Phenomena
 
-## Characteristics
+- [Ogopogo](../ogopogo/) — _similar_: Canadian freshwater lake cryptid
+- [Loch Ness Monster](../loch-ness-monster/) — _similar_: Scottish freshwater cryptid
+- [Yowie](../yowie/) — _related_: Australian land-based hominid cryptid; sometimes paired with bunyip in popular culture
+- [Mulyawonk](../mulyawonk/) — _regional_variant_: Ngarrindjeri water spirit closely related to the bunyip tradition
 
-### Physical Description
+---
+## Physical Description
 
-| Attribute | Description | Confidence |
-|-----------|-------------|------------|
-| **Height** | 1.0 - 4.0 meters | Very Low |
-| **Weight** | 100 - 1000 kg | Very Low |
-| **Coloration** | Dark brown, black, gray | Very Low |
-| **Build** | Highly variable across reports | Very Low |
+- **Height**: 1.2–4.6 meters _(low confidence)_
+- **Coloration**: dark brown, black, shaggy
+- **Morphology**: Highly variable across Aboriginal nations and colonial reports. Holden's typology distinguishes seal-dog, long-necked, and 'other' forms; the latter category includes feathered, beaked, and starfish-like descriptions.
 
-### Distinguishing Features
+### Features
 
 | Feature | Description | Frequency |
-|---------|-------------|-----------|
-| Body shape | Dog-faced, crocodile-like, or seal-like with large body | Variable |
-| Head | Dog-like face, horse-like head, or crocodilian features | Variable |
-| Tail | Long tail reported in some accounts | Occasional |
-| Tusks/teeth | Large teeth or tusks in some descriptions | Occasional |
-| Fur/skin | Fur, scales, or smooth skin depending on account | Variable |
+|---|---|---|
+| Aquatic body plan | Strongly associated with water; never reported on land in traditional accounts | always |
+| Seal-dog form | Most common form in Holden's survey: 4–6 ft long, bulldog-like head, prominent ears, seal-like whiskers, shaggy black or brown coat | common |
+| Long-necked form | 5–15 ft long, horse- or emu-like head, maned neck with skin folds | common |
+| Loud bellowing call | Reported as a deep, booming roar emerging from waterholes at night; often invoked to explain the call of the Australasian bittern | common |
 
-**Note**: The Bunyip has no consistent physical description. Accounts vary dramatically across different Aboriginal nations and European reports.
+## Reported Abilities
 
-### Reported Abilities
+| Ability | Description | Frequency | Evidence |
+|---|---|---|---|
+| Drowning / dragging humans underwater | Bunyips reportedly seize people who enter their waters, especially women and children | common | folklore |
+| Booming call | Distinctive nocturnal roar associated with waterholes | common | folklore |
+| Punishment of over-fishing (Mulyawonk variant) | Among the Ngarrindjeri, the Mulyawonk specifically punishes those who take more fish than they need | common | folklore |
 
-| Ability | Description | Evidence Level |
-|---------|-------------|----------------|
-| Vocalizations | Loud roaring or bellowing sounds | Traditional |
-| Swimming | Aquatic locomotion in waterholes and rivers | Traditional |
-| Predation | Attacks animals and humans near water | Folklore |
+## Behavior
 
-### Behavioral Patterns
-
-- **Activity Period**: Variable
-- **Disposition**: Dangerous (in traditional accounts)
-- **Social Structure**: Solitary
-- **Habitat Preference**: Waterholes, billabongs, creeks, swamps, rivers
-- **Diet**: Carnivorous in traditional accounts
+- **Activity**: nocturnal
+- **Disposition**: aggressive
+- **Social structure**: solitary
+- **Habitat**: billabongs, swamps, lagoons, creeks, riverbeds, waterholes
+- **Diet**: Reported as a predator of humans, livestock, and large game in folkloric accounts; no naturalistic diet has been established.
 
 ---
+## Distribution
 
-## Geographic Distribution
+Bunyip traditions extend across most of inhabited Australia, with strongest documentation in the Murray–Darling Basin (Victoria, New South Wales, South Australia), Tasmania, and parts of Queensland.
 
-### Primary Range
+### Hotspots
 
-Aboriginal traditions exist across Australia with regional variations. Primarily associated with inland waterways, billabongs, and swamps throughout the continent, particularly in Victoria, New South Wales, Queensland, and South Australia.
-
-### Sighting Hotspots
-
-| Location | Region | Sighting Count | Notable Period |
-|----------|--------|----------------|----------------|
-| Victoria inland waterways | Victoria | 20+ | 1800s |
-| Murray-Darling Basin | Multiple states | 15+ | 1800s-1900s |
+| Location | Region | Sightings | Peak |
+|---|---|---|---|
+| Lake Modewarre | Victoria, Australia |  | 1850s |
+| Murray River near Balranald | New South Wales, Australia |  | 1846–1847 |
 
 ---
-
 ## Historical Timeline
 
-### Origins
-
-Aboriginal peoples across Australia have traditions of water-dwelling creatures with various names and descriptions across different nations. The Bunyip is a spiritual and cultural being in Aboriginal mythology, connected to Dreamtime stories and spiritual beliefs about water sources.
-
-### Key Events
-
 | Date | Event | Significance |
-|------|-------|--------------|
-| Pre-colonial | Aboriginal oral traditions | Ancient traditions across multiple Aboriginal nations with regional variations |
-| 1800s | European settler reports | European colonists claim sightings, sparking scientific interest |
-| 1840s-1850s | Scientific examination attempts | Australian Museum investigates alleged Bunyip remains |
-| 1800s-present | Cultural icon status | Bunyip becomes part of Australian cultural identity |
-
-### Modern Era
-
-The Bunyip is now primarily understood as an important part of Aboriginal mythology and Australian cultural heritage rather than an active cryptid pursuit. It is studied from cultural, anthropological, and folklore perspectives.
-
----
-
-## Notable Sightings
-
-### Victorian Settler Reports (1840s) ⭐
-
-> **Date**: 1840s
-> **Location**: Various Victorian waterways
-> **Witnesses**: Multiple European settlers
-> **Evidence**: Witness testimony, newspaper reports, alleged skeletal remains
-
-European settlers in Victoria reported encounters with large, unknown water creatures in billabongs and rivers, describing them variously as seal-like or dog-faced creatures. The Australian Museum examined alleged Bunyip skeletal remains, but all were identified as known animals (seals, cattle, etc.).
-
-**Credibility Assessment**: Low — Highly variable descriptions, no confirmed physical evidence, likely misidentifications of seals or other known animals by settlers unfamiliar with Australian wildlife.
-
----
-
-*See [/sightings](/sightings) for complete sighting database.*
-
----
+|---|---|---|
+| 1845-07-09 | Geelong Advertiser publishes 'Wonderful Discovery of a New Animal' | First major newspaper coverage of the bunyip in colonial Australia |
+| 1846 | An unusual skull is found near Balranald, NSW, on the Murray River and labeled a 'bunyip skull' | Triggers Australian Museum / Macleay / Owen investigation |
+| 1847-07 | W. S. Macleay and Richard Owen identify the Balranald skull as a deformed foetal foal or calf | First major scientific debunking of a 'bunyip' specimen |
+| 1852 | Escaped convict William Buckley publishes his memoir, recounting bunyip sightings at Lake Modewarre and the Barwon River | Influential first-person settler-era account |
+| 1933 | Geographer Charles Fenner proposes that bunyip stories preserve memory of seals ranging up the Murray and Darling rivers | First major naturalistic hypothesis |
+| 2001 | Robert Holden publishes 'Bunyips: Australia's Folklore of Fear', cataloguing reports and typologies | Standard modern reference for bunyip folklore |
 
 ## Evidence
 
-### Physical Evidence
+### Physical
 
-| Type | Description | Status |
-|------|-------------|--------|
-| Alleged skeletal remains | Various bones claimed to be Bunyip (1840s-1850s) | Debunked (identified as known animals) |
+| Name | Date | Description | Status |
+|---|---|---|---|
+| Balranald 'Bunyip Skull' | 1846 | An unusual mammalian skull found near Balranald on the Murray River and submitted as a possible bunyip specimen. | debunked |
+### Documentary
+
+| Name | Date | Description | Status |
+|---|---|---|---|
+| Bunyips: Australia's Folklore of Fear | 2001 | Robert Holden's comprehensive folklore-studies treatment of bunyip traditions across Aboriginal nations and colonial sources. | verified |
 
 ---
-
 ## Theories & Explanations
 
-### Spiritual/Cultural Theories
+### Paranormal / Cryptozoological
 
-1. **Spiritual Being**
-   Bunyip as a spiritual entity from Aboriginal Dreamtime, not a physical creature. Serves important cultural and protective functions in Aboriginal belief systems.
+**Aboriginal water-spirit framing** _(Aboriginal oral traditions, Ngarrindjeri cultural authorities (Mulyawonk))_
 
-### Scientific Theories
+Within many Aboriginal traditions, the bunyip and related figures (Mulyawonk, kine-pratie) are real spirit-beings of fresh water with cosmological and behavioural significance.
 
-1. **Extinct Diprotodon**
-   Cultural memory of extinct megafauna Diprotodon, a giant marsupial that lived until approximately 40,000 years ago. Aboriginal arrival in Australia overlaps with megafauna period, and Diprotodon was semi-aquatic.
+### Scientific
 
-2. **Misidentified Seals**
-   European sightings were misidentifications of seals that had traveled inland via river systems. Seals do travel up Australian rivers, and descriptions match seal characteristics.
+**Cultural memory of Pleistocene megafauna** _(George Bennett (1871), Pat Vickers-Rich (early 1990s))_
 
-### Skeptical Explanations
+Bunyip stories may preserve cultural memory of extinct Australian megafauna such as Diprotodon, Zygomaturus, Nototherium, Palorchestes, or Thylacoleo, observed by early Aboriginal Australians.
 
-1. **Pure Mythology**
-   Bunyip is entirely mythological with no basis in real creatures, serving important cultural and cautionary purposes in Aboriginal societies. No credible physical evidence exists, and descriptions are highly variable.
+**Inland seal hypothesis** _(Charles Fenner)_
 
-2. **Misidentification of Known Animals**
-   Combination of misidentified seals, large water birds, swimming wombats, and other known fauna. European settlers were unfamiliar with Australian wildlife, leading to fantastic interpretations.
+Charles Fenner proposed in 1933 that fur seals or leopard seals occasionally travelling up the Murray and Darling rivers inspired bunyip accounts.
 
----
+**Bittern call hypothesis** _(Australian ornithologists, BirdLife Australia)_
 
-## Cultural Significance
+The deep, booming call of the Australasian bittern (Botaurus poiciloptilus) is widely identified as a source of nocturnal 'bunyip' roars; the bird is colloquially known as the 'bunyip bird'.
 
-### Aboriginal Perspectives
+### Skeptical
 
-> ⚠️ **Cultural Sensitivity Note**: The Bunyip is part of living Aboriginal spiritual traditions and should be approached with respect. These are not merely cryptozoological curiosities but sacred cultural beliefs of Indigenous Australians. Consult with Aboriginal elders and communities when discussing Bunyip traditions.
+**Misidentification and folklore aggregation** _(Robert Holden, Australian zoologists)_
 
-In Aboriginal culture, the Bunyip often serves as:
-- **Spiritual guardian** of waterholes and water sources
-- **Cautionary figure**, particularly to keep children safe from dangerous water
-- **Dreamtime being** with spiritual and cultural significance
-- **Regional variations** with different characteristics across Aboriginal nations
+Most colonial-era reports are best explained by misidentification of seals, large rays, or deformed mammalian carcasses; the unifying creature emerges only when European colonists pool a heterogeneous Aboriginal vocabulary into a single 'bunyip'.
 
-Different Aboriginal nations have different traditions and interpretations, including the Wemba-Wemba and Wergaia peoples of Victoria.
 
-### Popular Culture
+## Indigenous Perspectives
 
-**Literature**:
-- *The Bunyip of Berkeley's Creek* by Jenny Wagner (1973)
-- Various Australian children's books
-- Australian poetry and folklore collections
+> ⚠️ **Colonial collapsing of diverse Aboriginal water-spirit traditions into a single 'bunyip' obscures meaningful distinctions; the figure should not be reduced to a generic cryptid.**
 
-**Film/TV**:
-- *Dot and the Kangaroo* (1977) - animated feature
-- Various Australian children's programs
+**Cultures**: Wemba-Wemba, Wergaia, Ngarrindjeri, Kulin nations, many other Aboriginal nations
 
-**Other**:
-- Australian cultural icon
-- Used in tourism and regional branding
-- Part of Australian national identity
+The bunyip and its regional cognates are part of living Aboriginal water-country knowledge, tied to specific places, ancestors, and lawful behaviour around water.
+
+_Guidelines: Engage Aboriginal traditional owners and language authorities for any region-specific use; cite Aboriginal knowledge holders directly where possible._
+
+## Popular Culture
+
+**Literature**: The Bunyip of Berkeley's Creek — Jenny Wagner and Ron Brooks (1973); Bunyips: Australia's Folklore of Fear — Robert Holden (2001); Dot and the Kangaroo — Ethel Pedley (1899) — features a bunyip
+
+**Film / TV**: Dot and the Kangaroo (1977 animated film); Multiple Australian children's television appearances
+
+**Other**: Bunyip Aquatic Centres and recreation areas across Australia; Tourism signage in regional Victoria and NSW
 
 ---
+## Research
 
-## Research & Investigation
+### Researchers
 
-### Historical Research
+| Name | Affiliation | Contribution | Period |
+|---|---|---|---|
+| Robert Holden | Australian folklore historian | Comprehensive 2001 monograph 'Bunyips: Australia's Folklore of Fear' | 1990s–2000s |
+| Charles Fenner | South Australian geographer | 1933 'inland seal' hypothesis | 1930s |
+| Pat Vickers-Rich | Monash University (palaeontology) | Discussion of the megafauna-memory hypothesis | 1990s |
+| Sir Richard Owen | British Museum (Natural History) | 1847 identification of the Balranald 'bunyip skull' as a foetal foal/calf | 1847 |
 
-| Name | Affiliation | Contribution |
-|------|-------------|--------------|
-| Australian Museum | Australian Museum | 1840s-1850s investigation of alleged Bunyip remains |
+### Organizations
 
-### Ongoing Studies
+- [Australian Museum](https://australian.museum/) — Holds historical bunyip-related specimens and archival material
+- [BirdLife Australia](https://birdlife.org.au/) — Research on the Australasian bittern (the 'bunyip bird')
 
-The Bunyip is primarily studied from cultural, anthropological, and folklore perspectives rather than as an active cryptozoological pursuit. Research focuses on:
-- Aboriginal cultural traditions
-- Dreamtime story analysis
-- Historical settler accounts
-- Australian cultural heritage
-
----
-
-## API Reference
-
-Machine-readable data is available in [`api.json`](api.json).
-
-### Data Access
-
-```javascript
-// Using WyrdnessAPI
-const wyrd = new WyrdnessAPI();
-const bunyip = await wyrd.getPhenomenon('bunyip');
-const sightings = await wyrd.getSightings('bunyip');
-```
-
-### Direct Access
-
-```
-Raw JSON: https://raw.githubusercontent.com/wyrdness/bunyip/main/api.json
-```
+Folklore-studies analysis of regional bunyip traditions; Aboriginal cultural-knowledge programmes; ongoing palaeontological discussion of megafauna-memory hypotheses.
 
 ---
+## Sources
 
-## Sources & References
+See [SOURCES.md](SOURCES.md) for the complete bibliography.
 
-See [SOURCES.md](SOURCES.md) for complete bibliography.
 
-### Primary Sources
+## How to Report a Sighting
 
-- Aboriginal oral traditions (with cultural sensitivity)
-- Australian Museum archives (1840s-1850s investigations)
-- Victorian colonial newspaper reports
-
----
-
-## Changelog
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0.0 | 2026-01-14 | Initial release |
+1. **GitHub Issue**: [Submit Sighting Report](../../issues/new?template=sighting_report.yml)
+2. Provide date, location, witnesses, description, conditions, and any evidence.
 
 ---
-
 ## License
 
-- **Content**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-- **Data**: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+Content: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
+Data: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)  
 
 ---
-
-<div align="center">
-
-*Part of the [Wyrdness](https://github.com/wyrdness) Paranormal Archive*
-
-[Report Sighting](../../issues/new?template=sighting_report.yml) • [Suggest Correction](../../issues/new?template=correction.yml) • [Full API](api.json)
-
-</div>
+_Auto-generated from `api.json`. Do not edit by hand — edit `api.json` and run `make repo-docs`._
